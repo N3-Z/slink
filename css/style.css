@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    min-height: 100vh;
+}
+.bg_bot{
+    height: 100vh;
+}
+header{
+    text-align: right;
+    padding: 2% 5%;
+    position: sticky;
+    top: 0;
+}
+header>span{
+    cursor: pointer;
+    margin-right: 2%;
+    color: rgb(41, 41, 41);
+    font-size: 19px;
+    font-weight: 300;
+}
+header>span:hover{
+    color: #3ea8ff;
+}
+header>span>a{
+    text-decoration: none !important;
+    color: rgb(41, 41, 41);
+}
+.container_start{
+    margin: 10% 7%;
+}
+.start_msg_{
+    width: 50%;
+    font-size: 37px;
+    font-weight: 600;
+}
+.container_start__{
+    cursor: pointer;
+    margin-top: 2%;
+    border-radius: 7px;
+    padding: 2%;
+    width: 20%;
+    font-size: 19px;
+    color: white;
+    background: linear-gradient(#00e0b3,#3ea8ff);
+}
+#nav_logo{
+    cursor: pointer;
+    position: absolute;
+    margin-left: 2%;
+}
+#nav_logo>img{
+    height: 27px;
+}
+
+#nav_logo>a>img{
+    height: 27px;
+}
+
+
+/* pricing */
+.pricing__{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.card-deck{
+    margin: 0 !important;
+    padding: 0 10% !important;
+    padding-top: 10% !important;
+    width: 100%;
+}
+.card{
+    margin:0 5% !important;
+    background: linear-gradient(rgb(188, 240, 83),#3ea8ff);
+    border: none !important;
+}
+.card-footer{
+    cursor: pointer;
+}
+.card-footer:hover{
+    background: #3ea8ff;
+}
+.card-footer:hover .text-muted{
+    color: white !important;
+    font-weight: bold;
+}
+.card-body>ul{
+    text-align: left;
+}
+.card-price{
+    padding: 2% 5%;
+    text-align: left;
+}
+.card-price{
+    font-size: medium;
+    color: grey;
+}
+.card-price>.card-price_{
+    font-size: 37px;
+    color: #202020;
+}

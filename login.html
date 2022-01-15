@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <header>
+        <div id="nav_logo"><a href="./index.html"><img src="./img/slink2.png" alt=""></a></div>
+        <span id="nav_"><a href="./signup.html">Sign up</a></span>
+        <span id="nav_"><a href="./login.html">Log in</a></span>
+        <hr>
+    </header>
+    
+    <div class="form-signup">
+        <form action="JavaScript:login()" method="post">
+            <div class="form-component"><input type="hidden" name="token_signup"></div>
+            <div class="form-component">Email/Username</div>
+            <div class="form-component"><input type="text" id="email_or_username"></div>
+            <div class="form-component">Password</div>
+            <div class="form-component"><input type="password" id="password"></div>
+            <div class="form-component"><button>Sign up with Email</button></div>
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
+
+</body>
+</html>

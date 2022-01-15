@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+header{
+    position: relative;
+    background: #172f41;
+    height: 14%;
+    display: flex;
+}
+header>div{
+    padding: 2% 5%;
+}
+#nav_logo>a>img{
+    height: 27px;
+}
+.account_{
+    margin-left: auto;
+    color: white;
+    cursor: pointer;
+    margin-right: 2%;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
+.hov_account{
+    display: none;
+    background: #3ea8ff;
+    color: white;
+    font-weight: bold;
+    width: 12%;
+    padding: 1%;
+    position: absolute;
+    border-radius: 2px;
+}
+
+.body-access{
+    background: yellowgreen;
+    height: 86%;
+    display: flex;
+}
+.list-link-access{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow: auto;
+}
+.upload-access{
+    width: 75%;
+    background: aqua;
+}
+.data-list{
+    padding: 3%;
+}
+.name_data-list{
+    font-size: 19px;
+    color: #404040;
+    font-weight: 600;
+}
+.date_size_data-list{
+    display: flex;
+}
+.size_data-list{
+    font-size: 14px;
+    color: grey;
+}
+.date_data-list{
+    font-size: 14px;
+    margin-left: auto;
+    color: grey;
+}
+
+.inputfile{
+    width: 0.1px;
+	height: 0.1px;
+    opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}  
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    padding: 1%;
+    border-radius: 4px;
+    color: white;
+    background: rgb(250, 82, 82);
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background: red;
+}
+.inputfile + label {
+	cursor: pointer; 
+}
+.upload_file{
+    padding-top: 10%;
+    text-align: center;
+}
